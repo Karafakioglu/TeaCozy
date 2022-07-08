@@ -1,0 +1,151 @@
+*{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    margin: 10px;
+    text-decoration: underline;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+
+}
+#company-logo{
+    margin: 10px;
+    height: 50px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image{
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.background-image-image{
+    display: block;
+    width: 100%;
+}
+.image__overlay_test{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.overlay_container{
+    width: 100%;
+    background: rgba(0, 0, 0, 1);
+    font-size: 1vw;
+}
+
+
+.text-on-background{
+    display: inline-block;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+
+.main-section-img p{
+    margin-top: 10px;
+
+}
+#title p{
+    margin:30px;
+    font-size: 1vw;
+}
+.main-section-img{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 1vw;
+
+}
+.main-section-img div img{
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 400px;
+
+}
+.image{
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.image__img{
+    display: block;
+    width: 100%;
+
+}
+.image__overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.location-overlay{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width:inherit;
+    height: inherit;
+    gap: 40px;
+
+}
+.location-overlay div{
+
+    width: 300px;
+    font-size: 1vw;
+}
+.location-overlay p{
+    padding: 10px;
+}
+
+.contact-info{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+#copyright{
+text-align: left;
+padding-left: 20px;
+}
